@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { link } from 'fs'
 import { NAV_LINKS } from '../constants'
 import Button from './Button'
 
@@ -28,6 +27,14 @@ const Navbar = () => {
             variant= 'btn_dark_green'
             />
         </div>
+
+        <Image 
+        src='menu.svg'
+        alt='menu'
+        width={32}
+        height={32}
+        className='inline-block cursor-pointer lg:hidden'
+        />
         
       
     </nav>
