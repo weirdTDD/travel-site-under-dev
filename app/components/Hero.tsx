@@ -15,7 +15,7 @@ const Hero = () => {
             width={50} height={50}
             className='absolute left-[-5px] -mt-3 top-[-30px] w-10 lg:w-[50px] '
         />
-        <h1 className='bold-52 lg:bold-88'>Aburi Botanical Camp</h1>
+        <h1 className='bold-52 lg:bold-88'>Morhe's Trips & Camping</h1>
         <p className='regular-16  mt-6 text-gray-50 xl:max-w-[520px]'>Experience the beauty of nature at our camp. Join this adventure and create unforgetable memories with your loved ones. Be anywhere around the world just through one app 
         and enjoy the experience of a lifetime.
         </p>

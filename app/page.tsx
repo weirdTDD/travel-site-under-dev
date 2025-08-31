@@ -11,9 +11,9 @@ export const Home = () => {
   return (
     <>
       <Hero />
-      <Features />
       <Camp />
       <Guide />
+      <Features />
       <GetApp />
     </>
   )

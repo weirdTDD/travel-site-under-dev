@@ -1,4 +1,4 @@
-# Travel App - Outdoor Adventure Platform
+# Travel App UI- Outdoor Adventure Platform
 
 ![Hilink Logo](./public/hilink-logo.svg)
 
