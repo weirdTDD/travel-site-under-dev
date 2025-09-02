@@ -7,7 +7,7 @@ import Guide from './components/Guide';
 import GetApp from './components/GetApp';
 
 
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <Hero />
