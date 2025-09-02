@@ -63,7 +63,7 @@ const Camp = () => {
 
   return (
     <section className='2xl:max-container relative flex flex-col py-10 lg:py-20 xl:mb-20 '>
-      <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]' >
+      <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] ' >
 
         <CampSite
           backgroundImage='bg-bg-img-1'
@@ -83,17 +83,21 @@ const Camp = () => {
       </div>
 
       <div className= 'flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6'>
-        <div className='bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl '>
+        <div className='bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl shadow'>
           <h2 className='regular-24 md:regular-32 2xl:regular-64 capitalize text-white'> <strong>Feeling Lost?</strong> and not knowing the way?</h2>
           <p className='regular-14 md:regular-16 2xl:regular-24 mt-4 text-white'>Discover the joy of camping with us. Share your experiences, tips, and stories with fellow outdoor enthusiasts. Whether you're a seasoned camper or just starting out, our community is here to support you on your adventures.</p>
 
           <div className='flexBetween mt-6'>
-            <p className='regular-14 md:regular-16 2xl:regular-24 mt-4 text-white bold-16'>Join Our Camping Community </p>
-            <Button 
-            type='button'
-            title='Join Now'
-            variant= 'btn_white_text' 
-          />
+            <p className='regular-14 md:regular-16 lg:bold-20 2xl:bold-32 mt-4 text-white bold-16 '>Join Our Camping Community </p>
+            
+            <div className="hover:scale-105">
+              <Button 
+                type='button'
+                title='Join Now'
+                variant='btn_white'
+              />
+            </div>
+
           </div>
 
         </div>

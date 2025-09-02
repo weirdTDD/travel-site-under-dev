@@ -15,7 +15,7 @@ const Hero = () => {
             width={50} height={50}
             className='absolute left-[-5px] -mt-3 top-[-30px] w-10 lg:w-[50px] '
         />
-        <h1 className='bold-52 lg:bold-88'>Morhe's Trips & Camping</h1>
+        <h1 className='bold-52 lg:bold-88'>Explores Trips & Camping</h1>
         <p className='regular-16  mt-6 text-gray-50 xl:max-w-[520px]'>Experience the beauty of nature at our camp. Join this adventure and create unforgetable memories with your loved ones. Be anywhere around the world just through one app 
         and enjoy the experience of a lifetime.
         </p>
@@ -60,7 +60,7 @@ const Hero = () => {
       </div>
 
       <div className='relative flex flex-1 items-start'>
-        <div className='relative flex z-20  w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8'>
+        <div className='relative flex z-20  w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 shadow hover:scale-90'>
            
               <div className='flex flex-col'>
                 <div className='flexBetween '>

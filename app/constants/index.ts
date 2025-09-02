@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'how_explores_work', label: 'How Explores Work?' },
+  { href: '#features', key: 'services', label: 'Services' },
+  { href: '/pricing', key: 'pricing ', label: 'Pricing ' },
+  { href: '#contacts', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
@@ -29,7 +29,7 @@ export const FEATURES = [
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from Explores Ghana. That way, there's no more discussion",
   },
   {
     title: 'Technology using augment reality',
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About Ghana',
       'Press Releases',
       'Environment',
       'Jobs',
@@ -62,15 +62,15 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Explores Aburi Climbing', 'Explores Hiking', 'Explores kinthill'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin Officer', value: '+233 50 775 8740' },
+    { label: 'Email Officer', value: 'edwardmorhe777@gmail.com' },
   ],
 };
 

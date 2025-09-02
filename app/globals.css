@@ -11,8 +11,11 @@
 }
 
 @layer utilities {
+  .shadow {
+    @apply	shadow-[0px_4px_16px_rgba(0,0,0,0.25)];
+  }
   .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50;
+    @apply  border-white bg-white px-8 py-5 text-green-50;
   }
   .btn_white_text  { 
     @apply  border-white bg-white px-8 py-3 text-gray-90;
@@ -151,3 +154,4 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
